@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: quan0110
+  host: quan0110
+  disk_quota: 1024M
+  services:
+  - quan0110-cloudantNoSQLDB
